@@ -47,7 +47,8 @@ li {
     margin-right: auto;
     
 }
-.header{  
+.header {
+   
     background: var(--primary-white-color);
     border: 1px solid #ECECEC;
 }
@@ -143,9 +144,26 @@ li {
 .hero {
   
     margin: 0 auto;
-    text-align: center;    
+    text-align: center;
     background: var(--secondary-background-color);
+    
 }
+/* Img Overlay */
+     
+.overlay {
+    
+    max-width: 1600px;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(47, 48, 58, 0.4);
+    background-image: url(../images/hero-phon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+} 
+
 h1 {
     
     padding-top: 200px;
@@ -315,6 +333,7 @@ h1 {
 .footer {
     display: block;
     cursor: none;
+    
     background: var(--secondary-background-color);
 }
 
