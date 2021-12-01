@@ -146,6 +146,25 @@ li {
     text-align: center;    
     background: var(--secondary-background-color);
 }
+
+/* Img Overlay */
+
+.overlay {
+
+    max-width: 1600px;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(47, 48, 58, 0.4);
+    background-image: url(../images/hero-phon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
 h1 {
     
     
