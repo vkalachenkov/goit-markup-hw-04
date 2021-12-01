@@ -48,9 +48,10 @@ li {
     
 }
 .header {
-   
+    padding-top: 24px;
+    padding-bottom: 25px;
     background: var(--primary-white-color);
-    border: 1px solid #ECECEC;
+    border-top: 1px solid #ECECEC;
 }
 .main-nav {
     display: flex;
@@ -74,15 +75,12 @@ li {
 }
 
 .logo-second {
-    padding-top: 24px;
-    padding-bottom: 25px;
+   
     color: #000000;
 
 }
 .logo-fist {
 
-    padding-top: 24px;
-    padding-bottom: 25px;
     color: var(--accent-color);
     
 }
@@ -142,31 +140,15 @@ li {
 
 /*hero*/
 .hero {
-  
+    padding-top: 200px;
+    padding-bottom: 200px;
     margin: 0 auto;
-    text-align: center;
+    text-align: center;    
     background: var(--secondary-background-color);
-    
 }
-/* Img Overlay */
-     
-.overlay {
-    
-    max-width: 1600px;
-    min-height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background: rgba(47, 48, 58, 0.4);
-    background-image: url(../images/hero-phon.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-} 
-
 h1 {
     
-    padding-top: 200px;
+    
     margin-top: 0px;
     font-weight: 900;  
     font-size: 44px;
@@ -183,7 +165,7 @@ h1 {
     display: inline-block;  
     padding: 10px 32px;
     min-width: 200px;
-    margin-bottom:  200px;
+   
     
     font-family: inherit;
     font-weight: 700;
@@ -251,6 +233,9 @@ h1 {
 
 /*we doing */
 .we-doing {
+    padding-top: 94px;
+   
+    
     background: var(--primary-background-color);
 }
 .content-list {
@@ -265,7 +250,7 @@ h1 {
 {
     margin: 0 auto;
     margin-bottom: 50px;
-    padding-top: 94px;
+   
     font-weight: 700;
     font-size: 36px;
     text-align: center;
@@ -279,7 +264,7 @@ h1 {
 /*our team*/
 .team {
    
-    margin-top: 94px;
+    padding-top:  94px;
     background: #F5F4FA;
 }
 .team-list {
@@ -301,16 +286,19 @@ h1 {
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 94px;
 }         
+.team-box {
     
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}    
 
        
 
 .box-name {
     margin: 0;
-    padding-top: 30px; 
-    padding-bottom:  10px;
-
-    font-weight: 500;
+    margin-bottom: 10px;
+           font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -319,8 +307,7 @@ h1 {
 }
 .box-text {
     margin: 0;
-    padding-bottom: 30px;
-
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -332,15 +319,16 @@ h1 {
 /* basement */ 
 .footer {
     display: block;
-    cursor: none;
     
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: var(--secondary-background-color);
 }
 
 .logo-third,
 .logo-fourth {
     display: inline-block;
-    padding-top: 60px;
+    
     padding-bottom: 20px;
     font-family: Raleway;
     font-weight: 700;
@@ -354,14 +342,15 @@ h1 {
 
 }
 .logo-fourth {
-    cursor: none;
+   
     color: var(--primary-white-color);
 }
 .address li {
     display: block;
     margin: 0;
     padding-bottom: 9px; 
-    cursor: none;
+   
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -372,8 +361,8 @@ h1 {
 .address .link {
     display: block;
     margin: 0;
+    font-style: normal;
     
-    cursor: none;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -383,7 +372,7 @@ h1 {
 }
 .address .item {
     display: block;
-    padding-bottom: 60px;
+    
 }
 /* Portfolio Page*/
 .btn { 
@@ -409,7 +398,7 @@ h1 {
 
 /*portfolio section*/
 .portfolio-section {
-    
+    padding-top: 94px;
     padding-bottom: 94px;
     border: 1px solid #ECECEC;
 }
@@ -419,7 +408,7 @@ h1 {
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding-top: 94px;
+    margin-bottom: 34px;
       
 }
 .filters .item + .item {
@@ -431,7 +420,7 @@ h1 {
 
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;
+   
     justify-content: center;
    
 
@@ -459,20 +448,23 @@ h1 {
 }
 .soft-list p {
    margin: 0;
-   padding-left: 24px;
-   padding-bottom: 20px;
+  
+}
+.soft-card {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
 }
 .card-name {
     margin: 0;
-    padding-left: 24px;
-    padding-top: 20px;
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-tex-color);
 }
-.card-tex {
+.card-text {
     
     font-weight: 400;
     font-size: 16px;
