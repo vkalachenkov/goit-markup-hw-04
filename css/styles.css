@@ -51,7 +51,7 @@ li {
     padding-top: 24px;
     padding-bottom: 25px;
     background: var(--primary-white-color);
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 .main-nav {
     display: flex;
@@ -142,7 +142,24 @@ li {
     margin: 0 auto;
     text-align: center;    
     background: var(--secondary-background-color);
+} 
+
+/* Img Overlay */
+
+.overlay {
+
+    max-width: 1600px;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(47, 48, 58, 0.4);
+    background-image: url(../images/img-overlay.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
+
 h1 {
     
     
@@ -325,6 +342,15 @@ h1 {
 
 }
 
+/*clients*/
+
+.clients {
+    padding-top: 94px;
+    padding-bottom:  94px;
+}
+.clients .item + .item {
+    margin-left: 30px;
+}
 /* basement */ 
 .footer {
     display: block;
@@ -336,8 +362,6 @@ h1 {
 .logo-third,
 .logo-fourth {
     display: inline-block;
-    
-    
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -381,6 +405,35 @@ h1 {
 .address .item {
     display: block;
     
+}
+/* social networks*/
+
+.networks {
+    
+    margin-left: 150px;
+}
+
+.network-name {
+    
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+.network-list {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.network-list .item + .item {
+    margin-left: 10px;
 }
 /* Portfolio Page*/
 .btn { 
